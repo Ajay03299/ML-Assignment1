@@ -1,0 +1,2 @@
+problem,degree,model,alpha,cv_mse,cv_r2,train_mse,train_r2
+var2,8,ridge,0.1,0.2384,0.9952,0.1662,0.9967

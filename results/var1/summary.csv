@@ -1,0 +1,2 @@
+problem,degree,model,alpha,cv_mse,cv_r2,train_mse,train_r2
+var1,5,lasso,0.01,0.3381,0.9652,0.2366,0.9756
