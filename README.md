@@ -1,4 +1,4 @@
-# ML Assignment 1 – Polynomial Regression (BT2024079)
+# ML Assignment 1 - Polynomial Regression (BT2024079)
 
 Two separate problems, each with its own script, model, predictions and results.
 
@@ -29,11 +29,11 @@ results/var2/  same for Problem 2
 ## How to run
 ```bash
 python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
+source venv/bin/activate          
 pip install -r requirements.txt
 
-python src/var1.py                # train + predict (~30 s)
-python src/var2.py                # train + predict (~3 min)
+python src/var1.py                # train + predict (approximately 30 s)
+python src/var2.py                # train + predict (approximately 3min)
 
 python src/var1.py --predict      # inference only, from the saved model
 python src/var2.py --predict
