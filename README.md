@@ -24,10 +24,12 @@ models/        saved trained models (.joblib)
 predictions/   BT2024079_pred_var1.csv, BT2024079_pred_var2.csv
 results/var1/  CV table, summary, degree-vs-MSE plot, residual plot
 results/var2/  same for Problem 2
+
 ```
 
 How to run:-
 ```bash
+
 python -m venv venv
 source venv/bin/activate          
 pip install -r requirements.txt
@@ -37,4 +39,5 @@ python src/var2.py                # train + predict takes approximately 3min
 
 python src/var1.py --predict      # inference only, from the saved model
 python src/var2.py --predict
+
 ```
