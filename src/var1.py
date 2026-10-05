@@ -1,11 +1,3 @@
-"""
-Problem 1 (var1): Steam Turbine Net Power Score  |  Roll No: BT2024079
-Inputs: x1..x6  ->  Target: y
-
-Usage (from repo root):
-    python src/var1.py            # train + inference
-    python src/var1.py --predict  # inference only, using the saved model
-"""
 import os
 import sys
 import warnings
@@ -24,8 +16,6 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
-
-# ---------------- settings ----------------
 PRB = "var1"
 ROLL = "BT2024079"
 TRAIN_CSV = f"data/{ROLL}_train_{PRB}.csv"
@@ -37,7 +27,7 @@ RES_DIR = f"results/{PRB}"
 DEGREES = range(1, 11)                 # problem says "up to degree 10"
 RIDGE_ALPHAS = [0.01, 0.1, 1, 10, 30, 100]
 LASSO_ALPHAS = [0.0003, 0.001, 0.003, 0.01, 0.03]
-TOL = 0.05                             # parsimony: lowest degree within 5% of best CV MSE
+TOL = 0.05                             
 SEED = 42
 
 
