@@ -1,6 +1,6 @@
 # ML Assignment 1 - Polynomial Regression (BT2024079)
 
-Two separate problems, each with its own script, model, predictions and results.
+Two separate problems, each has its own script, model, predictions and results.
 
 | Problem | Script | Inputs | Chosen model | 5-fold CV MSE | 5-fold CV R² |
 |---|---|---|---|---|---|
