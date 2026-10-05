@@ -1,4 +1,4 @@
-ML Assignment 1 - Polynomial Regression (BT2024079)
+## ML Assignment 1 - Polynomial Regression (BT2024079)
 
 Two separate problems, each has its own script, model, predictions and results.
 
